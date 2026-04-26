@@ -213,3 +213,48 @@ a {
   padding: 32px;
   font-size: 0.9rem;
 }
+
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 20px;
+  }
+
+  .main-nav ul {
+    gap: 12px;
+  }
+
+  .hero {
+    padding: 70px 20px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .onas-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .case-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .onas h2,
+  .case h2,
+  .contact h2 {
+    font-size: 1.6rem;
+  }
+
+  .onas,
+  .case,
+  .contact {
+    padding: 60px 20px;
+  }
+
+}
