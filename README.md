@@ -13,5 +13,6 @@ Wykonane etapy
 - [x] Efekty dynamiczne
 - [x] Responsywność
 - [x] Scalony PR finalny
-Status
+
+
 Projekt ukończony i scalony do main.
