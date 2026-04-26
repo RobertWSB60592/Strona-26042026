@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  color: blue;
+}
+.hero {
+  padding: 80px 20px;
+  text-align: center;
+  background: #3bacac;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2980b9;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.main-nav a {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+
+.onas {
+  padding: 60px 40px;
+  background: #f4f4f4;
+}
+
+.onas h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.onas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.onas-card {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.onas-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.case {
+  padding: 60px 40px;
+  background: #f4f4f4;
+}
+
+.case h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.case-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.case-card {
+  background: #fff;
+  padding: 28px 24px;
+  border-radius: 8px;
+  border-left: 4px solid #2980b9;
+}
+
+.case-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #2980b9;
+}
+
+.case-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.btn{
+  background: #e67e22;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 600;
+}
