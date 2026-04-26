@@ -1,1 +1,1 @@
-Projekt dynamicznej strony HTML + CSS
+Projekt wykonany w ramach zajęć – dynamiczny landing page z efektami hover, animacjami i responsywnością.
